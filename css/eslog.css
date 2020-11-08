@@ -1,0 +1,95 @@
+body{
+	margin: 0;
+	padding: 0;
+	background:url("https://i.pinimg.com/originals/34/62/ae/3462ae730a56750965fa30477f5b2167.jpg");
+	
+	background-repeat: no-repeat;
+	background-size: cover ;
+	color: white;
+}
+.login-box{
+	width: 320px;
+	height: 450px;
+	background:url("https://services.meteored.com/img/article/hasta-el-espacio-y-mas-alla-18261-13_768.jpg");
+	color: white;
+	top:50%;
+	left: 50%;
+	 position: absolute;
+	 /* centrar el div*/
+	 transform: translate(-50%,-50%);
+     /* para q no reseca el div*/
+	 box-sizing: border-box;
+	 padding: 75px 40px;
+}
+.avatar{
+	width: 125px;
+	height:auto;
+	border-radius: 50%;
+	position: absolute;
+	top:-55px;
+	left: 30%;
+}
+label{
+	margin:0:
+	padding: 0;
+	/*negrillas*/
+	font-weight:bold;
+	display: block;
+}
+h1{
+	text-align: center;
+	text-shadow: 2px 2px 4px  white;
+	text-decoration:underline;
+	text-transform: uppercase;
+}
+input{
+	width: 100%;
+	margin-bottom:20px; 
+}
+input[type="text"],
+input[type="password"]{
+	background:transparent;
+	border: none;
+	border-bottom:1px solid #fff;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+	width: 90%;
+}
+input[type="submit"]{
+	background: red;
+	color: white;
+	font-size: 18px;
+	border-radius: 20px;
+	text-transform: uppercase;
+	outline: none;
+	padding:5px;
+	border:none;
+	pointer:c 
+}
+input[type="submit"]:hover{
+	background-color:#FF5833;
+	cursor:pointer; 
+	font-family: sans-serif;
+	font-size: 20px;
+}
+a{
+	color: darkgray;
+	margin-bottom: 5px;
+	padding: 5px;
+}
+a:hover{
+	background:transparent;
+	color:#fff;
+	border-radius: 5px;
+	padding: 2px;
+}
+cite{
+	text-decoration: line-through;
+	float:right;
+	text-transform: uppercase;
+	font-size: 12px;
+	text-shadow:.4px .2px  3px #fff;
+	user-select: none;
+}
